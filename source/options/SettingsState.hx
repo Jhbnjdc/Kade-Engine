@@ -12,8 +12,8 @@ class SettingsState extends MusicBeatState {
         add(new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.fromRGB(149,221,125)));
 
         tile = new FlxTiledSprite(Paths.image('credIcon'), FlxG.width, FlxG.height);
-        tile.scrollX = 10;
-        tile.scrollY = 10;
+        tile.scrollX = 40;
+        tile.scrollY = 40;
         add(tile);
         
         var checkbox = new FlxUICheckBox(0, 0, null, null, "qwe");
